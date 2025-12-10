@@ -145,23 +145,6 @@
             font-size: 14px;
         }
 
-        .back-link {
-            display: inline-block;
-            margin-top: 20px;
-            color: #6366F1;
-            text-decoration: none;
-            font-weight: 500;
-            padding: 10px 20px;
-            border: 2px solid #6366F1;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-
-        .back-link:hover {
-            background: #6366F1;
-            color: white;
-        }
-
         @media (max-width: 768px) {
             .container {
                 padding: 25px;
@@ -180,17 +163,6 @@
                 font-size: 15px;
             }
         }
-
-        .badge {
-            display: inline-block;
-            background: #10B981;
-            color: white;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-left: 10px;
-        }
     </style>
 </head>
 <body>
@@ -207,127 +179,91 @@
         </div>
 
         <h2>1. Information We Collect</h2>
-        <p><strong>Habitoid does not collect, store, or transmit any personal information.</strong> All data including your habits, completion history, streaks, goals, achievements, and settings are stored exclusively on your device using local storage mechanisms.</p>
-        
+        <p><strong>Habitoid does not collect, store, or transmit any personal information.</strong> All data including your habits, completion history, streaks, goals, achievements, and settings are stored exclusively on your device.</p>
+
         <p>We do not:</p>
         <ul>
             <li>Collect any personal information</li>
-            <li>Track your usage or behavior</li>
-            <li>Access your contacts, location, or other device data</li>
+            <li>Track usage or behavior</li>
+            <li>Access contacts, location, or other device data</li>
             <li>Share data with third parties</li>
             <li>Use analytics or advertising services</li>
         </ul>
 
         <h2>2. Data Storage</h2>
-        <p>Your data is stored locally on your device using secure local storage mechanisms provided by the operating system. This includes:</p>
+        <p>Your data is stored locally on your device using secure mechanisms. This includes:</p>
         <ul>
-            <li><strong>Habits:</strong> Your habit names, categories, frequencies, and completion history</li>
-            <li><strong>Progress Data:</strong> Streaks, completion statistics, and achievement progress</li>
-            <li><strong>Goals:</strong> Your personal goals and target dates</li>
-            <li><strong>Settings:</strong> App preferences and notification settings</li>
+            <li>Habit information and history</li>
+            <li>Streaks and progress data</li>
+            <li>App settings and preferences</li>
         </ul>
-        
-        <p>We do not have access to your data, and it never leaves your device. You have complete control over your data and can delete it at any time by uninstalling the app or using the app's reset functionality.</p>
+
+        <p>You have full control over your data. Uninstalling the app permanently deletes all data stored on your device.</p>
 
         <h2>3. Permissions</h2>
-        <p>Habitoid requests the following permissions for essential functionality:</p>
-        
+        <p>Habitoid only requests essential permissions needed for core functionality:</p>
+
         <h3>📱 Notification Permissions</h3>
-        <p>We request notification permissions to send you reminders about your habits. This permission is:</p>
+        <p>Used to send habit reminders you configure inside the app.</p>
         <ul>
-            <li>Used only for habit reminder notifications</li>
-            <li>Not used to access any other information</li>
-            <li>Optional - you can disable notifications in app settings</li>
+            <li>Used only for reminders</li>
+            <li>Not used to access personal data</li>
+            <li>Optional and can be disabled anytime</li>
         </ul>
 
-        <h3>⏰ Exact Alarm Permissions</h3>
-        <p>We request exact alarm permissions (Android 12+) to schedule precise habit reminder notifications at times you specify. This permission is:</p>
+        <h3>⏰ Exact Alarm Permission (Android 12+)</h3>
+        <p>Used to schedule precise reminders at user-defined times.</p>
         <ul>
-            <li>Used only for scheduling habit reminders</li>
-            <li>Required for reliable notification delivery</li>
-            <li>Not used for any other purpose</li>
+            <li>Required for reliable alarms</li>
+            <li>Not used for any background tracking</li>
         </ul>
 
-        <h3>🔔 Full Screen Intent Permission</h3>
-        <p>We request full screen intent permission to show important habit reminders even when the app is closed. This ensures you don't miss important habit tracking opportunities.</p>
+        <p><strong>Habitoid does NOT request or use any sensitive/restricted permissions.</strong></p>
 
-        <p><strong>We do NOT request or access:</strong></p>
         <ul>
-            <li>Location data</li>
-            <li>Contacts or phone numbers</li>
-            <li>Camera or microphone</li>
-            <li>SMS or call logs</li>
-            <li>Device identifiers for tracking</li>
-            <li>External storage (except for optional data export/import)</li>
+            <li>No location access</li>
+            <li>No contacts access</li>
+            <li>No camera or microphone</li>
+            <li>No SMS or call logs</li>
+            <li>No device identifiers</li>
         </ul>
 
         <h2>4. Third-Party Services</h2>
-        <p>Habitoid does not integrate with any third-party services that collect or share your data. Specifically, we do not use:</p>
-        <ul>
-            <li>Analytics services (Google Analytics, Firebase Analytics, etc.)</li>
-            <li>Advertising networks</li>
-            <li>Crash reporting services</li>
-            <li>User tracking services</li>
-            <li>Cloud storage services</li>
-            <li>Social media integrations</li>
-        </ul>
-        
-        <p>All functionality is provided through the app itself, and all data remains on your device.</p>
-
-
-        
-        <p>These features are completely optional and under your control. The export/import process happens entirely on your device, and we do not have access to exported or imported data.</p>
+        <p>Habitoid does not use any third-party services for analytics, ads, tracking, or cloud storage. All functionality runs locally within the app.</p>
 
         <h2>5. Children's Privacy</h2>
-        <p>Habitoid is not intended for children under the age of 13. We do not knowingly collect information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.</p>
+        <p>Habitoid is not intended for children under 13. We do not knowingly collect data from children.</p>
 
         <h2>6. Data Security</h2>
-        <p>Since all your data is stored locally on your device:</p>
-        <ul>
-            <li>Your data is protected by your device's built-in security mechanisms</li>
-            <li>We recommend using device lock screens and keeping your device updated</li>
-            <li>Data is not transmitted over the internet, eliminating network-based security risks</li>
-            <li>No servers or cloud storage are involved, so there's no risk of data breaches on our end</li>
-        </ul>
+        <p>Because all data stays on your device, it is protected by your device’s internal security. No data is transmitted to servers or networks.</p>
 
         <h2>7. Your Rights</h2>
-        <p>You have complete control over your data:</p>
         <ul>
-            <li><strong>Access:</strong> All your data is accessible within the app</li>
-            <li><strong>Delete:</strong> You can delete individual habits or reset all data through app settings</li>
-            <li><strong>Uninstall:</strong> Uninstalling the app removes all your data from the device</li>
+            <li>Access all your data directly inside the app</li>
+            <li>Delete data anytime using app settings</li>
+            <li>Uninstall the app to remove all stored information</li>
         </ul>
 
         <h2>8. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any changes will be posted in the app and on this page, and the "Last Updated" date will be revised accordingly.</p>
-        
-        <p>We encourage you to review this Privacy Policy periodically to stay informed about how we protect your privacy.</p>
+        <p>We may update this policy to reflect improvements or legal requirements. The updated date will always be shown at the top.</p>
 
         <h2>9. Contact Us</h2>
         <div class="contact-info">
             <h3>Questions About Privacy?</h3>
-            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your data, please contact us:</p>
+            <p>Email us anytime:</p>
             <p><strong>Email:</strong> <a href="mailto:mtech1035@gmail.com?subject=Privacy Policy Inquiry">mtech1035@gmail.com</a></p>
-            <p><strong>Subject:</strong> Privacy Policy Inquiry</p>
-            <p style="margin-top: 15px; font-size: 14px;">We will respond to your inquiry within a reasonable timeframe.</p>
+            <p style="margin-top: 15px; font-size: 14px;">We typically respond within a reasonable time.</p>
         </div>
 
         <div class="footer">
             <p>© 2024 Habitoid. All rights reserved.</p>
-            <p style="margin-top: 10px;">This privacy policy applies to the Habitoid mobile application.</p>
-            
+            <p>This privacy policy applies to the Habitoid mobile application.</p>
         </div>
     </div>
 
     <script>
-        // Set last updated date
-        const lastUpdated = new Date().toLocaleDateString('en-US', { 
-            year: 'numeric', 
-            month: 'long', 
-            day: 'numeric' 
-        });
-        document.getElementById('lastUpdated').textContent = lastUpdated;
+        document.getElementById('lastUpdated').textContent =
+            new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
     </script>
 </body>
 </html>
-
